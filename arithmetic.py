@@ -28,5 +28,4 @@ def power(num1, num2):
     return(num1**num2)
 
 def mod(num1, num2):
-    #todo: cast to ints if possible, handle errors, etc
     return num1%num2
