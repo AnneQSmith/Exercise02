@@ -1,11 +1,23 @@
-def add(num1, num2):
-    return (num1+num2)
+
+#TODO:  Modify add, multiply to accept an arbirary number of arguments
+# 
+
+def add(*args):
+    print args
+    sum = 0
+    for i in range(len(args)):
+        sum += args[i]
+    return (sum)
 
 def subtract(num1, num2):
     return(num1-num2)
 
-def multiply(num1, num2):
-    return(num1*num2)
+def multiply(*args):
+    print args
+    prod = 1
+    for i in range(len(args)):
+        prod *= args[i]
+    return(prod)
 
 def divide(num1, num2):
     fl_num1 = float(num1)
